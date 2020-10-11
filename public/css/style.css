@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background: linear-gradient(rgb(255,255,255,0.7),rgb(0,0,0,0.7)),url('../images/hamburger.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+.header h1{
+    padding: 23%;
+    font-size: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.topnav
+{
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.topnav a{
+    font-size: 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-left: 3%;
+}
+
+.topnav a:hover{
+    background-color: #ffffff;
+    color: #333;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column
+{
+    float: left;
+    width: 50%;
+}
+/* About Part */
+#about
+{
+    padding: 10%;
+}
+
+#about h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+#about h5
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+#about p{
+    font-size: 20px;
+    margin: 2%;
+}
+
+#about img
+{
+    width: 90%;
+    height: 500px;
+}
+
+
+/* Menu Part */
+#menu
+{
+    padding: 10%;
+}
+
+#menu h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+#menu h4{
+    font-size: 25px;
+    padding: 2px;
+    margin: 1px;
+}
+
+#menu h4 .indicator
+{
+    background-color: #DC143C;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 20px;
+}
+#menu p{
+    font-size: 18px;
+    padding-top: 2%;
+    color: #808080;
+}
+#menu b
+{
+    color: #000000;
+}
+
+#menu img
+{
+    height: 500px;
+}
+
+
+/* Contact Part */
+#contact
+{
+    padding: 10%;
+}
+.form
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contact h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 2%;
+}
+#contact p{
+    font-size: 18px;
+    padding: 4%;
+}
+
+input[type=text],input[type=tel],input[type=email],textarea
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    resize: vertical;
+    font-size: 16px;
+}
+#contact .btn
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+hr
+{
+    width: 90%;
+    margin: 0 auto;
+}
